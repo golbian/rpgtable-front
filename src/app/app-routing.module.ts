@@ -17,7 +17,7 @@ import { PIXIComponent } from './pixi/pixi.component';
 const routes: Routes = [
   { path: 'characters', component:  CharacterListComponent},
   { path: 'characters/new', component:  AddCharacterComponent},
-  { path: 'characters/:id', component: CharacterDetailsComponent },
+  { path: 'characters/test', component: CharacterDetailsComponent },
   { path: 'pixi', component:  PIXIComponent},
   { path: 'maps', component:  MapListComponent},
   { path: 'maps/new', component:  AddMapComponent},

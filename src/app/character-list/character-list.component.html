@@ -1,1 +1,9 @@
-<p>character-list works!</p>
+<mat-list>
+  <mat-list-item *ngFor="let character of characters">
+    <img matListAvatar [src]="character.texture" alt="Character token" />
+    <h3 matLine>{{ character.name }}</h3>
+    <p matLine>
+      <span> {{ character.details }} </span>
+    </p>
+  </mat-list-item>
+</mat-list>
